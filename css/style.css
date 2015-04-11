@@ -1,0 +1,67 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,700");
+
+body {
+   font-family: "Open Sans", serif;
+   background-color: black;
+   color: white;
+}
+
+div {
+   position: static;
+   top: 0;
+   left: 0;
+   padding: 8px;
+}
+
+p:nth-child(1) {
+   color: green;
+}
+
+p:nth-child(2) {
+   color: pink;
+}
+
+p:nth-child(3) {
+   color: yellow;
+}
+
+p:nth-child(4) {
+   color: white;
+}
+
+#fourth {
+   border: 2px solid white;
+   width: 76px;
+   height: 76px;
+}
+
+#third {
+   border: 2px solid yellow;
+   width: 96px;
+   height: 96px;
+}
+
+#second {
+   border: 2px solid pink;
+   width: 116px;
+   height: 116px;
+}
+
+#first {
+   border: 2px solid green;
+   width: 136px;
+   height: 136px;
+}
+
+#msg {
+   position: fixed;
+   top: 0;
+   left: 200px;
+}
+
+#highlight {
+   background-color: yellow;
+   color: red;
+   font-weight: 700;
+   padding: 4px;
+}
