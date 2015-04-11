@@ -2,7 +2,8 @@
 
 var divs,
     paragraphs,
-    index;
+    index,
+    timeQuantum = 750;
 
 function printPositionStatus(i) {
     "use strict";
@@ -64,7 +65,7 @@ window.onload = function () {
                     divs[localIndex].style.position = "static";
                     printPositionStatus(localIndex);
                 },
-                750
+                timeQuantum
             );
 
             index -= 1;
@@ -78,6 +79,6 @@ window.onload = function () {
                 );
             }
         },
-        1500
+        (timeQuantum * 2)
     );
 };
