@@ -1,4 +1,5 @@
 # Absolute Positioning Example
+(v1.0)
 
 This example shows four nested `div` elements with different colored borders. The position for each `div` is `static`, the default. Every 1.5 seconds, the position property for one of the inner `div` elements is set to `absolute` and offset from the `top` and `left` by 0 pixels.
 
